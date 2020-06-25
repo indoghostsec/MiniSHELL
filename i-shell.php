@@ -1,3 +1,9 @@
+// +--------------------------------------------------------------------------------------------------+
+// Author : SuhandiGhost                                                                              |
+// Property dikutip dan dikumpulkan, open source silakan kembangkan                                   |
+// Team : IndoGhostSec                                                                                |
+// Greats : X-RevanGhost, GhostXp3rt, Prass7, Ghost666Include, 3l3ph4nt(Yudi), Mr.Cvk, And All Member |
+// +--------------------------------------------------------------------------------------------------+
 <?php
 session_start();
 set_time_limit(0);
