@@ -24,8 +24,8 @@ if(isset($_SESSION['pw'])){
 				}
 			</style>
 			<link rel=\'stylesheet\' href=\'https://cdn.jsdelivr.net/npm/sweetalert2@9.15.1/dist/sweetalert2.min.css\' type=\'text/css\'>
-  			<center><form method="POST"><input type="password" name="password"/><input class="btn btn-primary" type="submit" name="submit" value="submit"></form>';
-	if(isset($_POST["submit"])){
+  			<center><form method="POST"><input type="password" name="password"/></form>';
+	if(isset($_POST["password"])){
 		$pas = MD5($_POST["password"]);
 		if($pas == "8ac57deb26b056d44361c4f4d051fe0f"){
 			session_start();
