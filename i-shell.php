@@ -29,7 +29,7 @@ if(isset($_SESSION['pw'])){
 		$pas = MD5($_POST["password"]);
 		if($pas == "8ac57deb26b056d44361c4f4d051fe0f"){
 			session_start();
-			$_SESSION["pw"] = $pw;
+			$_SESSION["pw"] = $pas;
 			body();
 		} else {
 			echo "<script>window.location.onload();</script>";
