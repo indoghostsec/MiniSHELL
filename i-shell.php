@@ -367,7 +367,7 @@ function body(){
  	       <textarea cols=80 rows=20 name="src">'.htmlspecialchars(file_get_contents($_POST['path'])).'</textarea><br />
  	       <input type="hidden" name="path" value="'.$_POST['path'].'">
  	       <input type="hidden" name="opt" value="edit">
- 	       <input type="submit" value="Go" />
+ 	       <button class="btn btn-primary" type="submit">Done</button>
  	       </form>';
 	    }
   	  echo '</center>';
